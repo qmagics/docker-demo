@@ -27,4 +27,4 @@ FROM nginx:alpine
 
 COPY --from=builder docker-demo/dist/ /usr/share/nginx/html/
 
-EXPOSE 80
+EXPOSE 3333
